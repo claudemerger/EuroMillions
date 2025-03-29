@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5299BC1C-8DA1-492A-9A91-BF9976CEC5B7"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "43CB24DA-7836-4AFA-A935-51BE6C953212"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Features/Game/DrawingAlgorithms/NumbersDrawingAlgorithms/DrawNumbersFromList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "generateDraw(list:count:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "43CB24DA-7836-4AFA-A935-51BE6C953212 - e3184f98d2a6403e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "default argument 1 of EuroMillions.NumberDrawingAlgorithm.generateDraw(list: Swift.Array&lt;Swift.Int&gt;, count: Swift.Int) throws -&gt; Swift.Array&lt;Swift.Int&gt;"
+                  moduleName = "EuroMillions.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/claude/Development/Projects/EuroMillions%20Project/Applications/Version0/EuroMillions/Features/Game/DrawingAlgorithms/NumbersDrawingAlgorithms/DrawNumbersFromList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34">
+               </Location>
+               <Location
+                  uuid = "43CB24DA-7836-4AFA-A935-51BE6C953212 - 961583f7047b2a39"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EuroMillions.NumberDrawingAlgorithm.generateDraw(list: Swift.Array&lt;Swift.Int&gt;, count: Swift.Int) throws -&gt; Swift.Array&lt;Swift.Int&gt;"
+                  moduleName = "EuroMillions.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/claude/Development/Projects/EuroMillions%20Project/Applications/Version0/EuroMillions/Features/Game/DrawingAlgorithms/NumbersDrawingAlgorithms/DrawNumbersFromList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1A7CDC38-BFA4-4A06-ABD1-52106990DEA7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Features/Game/Views/ParametersContainerView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

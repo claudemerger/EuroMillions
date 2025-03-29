@@ -6,6 +6,84 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		513E40772D89699F0069365A /* DrawResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513E40762D89699F0069365A /* DrawResultsView.swift */; };
+		513E407D2D8982C90069365A /* GridDistribution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513E407B2D8982C90069365A /* GridDistribution.swift */; };
+		513E40822D8982E30069365A /* GridDistributionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513E407E2D8982E30069365A /* GridDistributionView.swift */; };
+		513E40832D8982E30069365A /* StatisticsAnalysisFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513E407F2D8982E30069365A /* StatisticsAnalysisFramework.swift */; };
+		513E40842D8982E30069365A /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513E40802D8982E30069365A /* StatisticsView.swift */; };
+		513E40862D8984B90069365A /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513E40852D89843A0069365A /* AppConfig.swift */; };
+		513E408A2D89869D0069365A /* DrawHistoryTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513E40872D89869D0069365A /* DrawHistoryTable.swift */; };
+		513E408C2D89869D0069365A /* DrawStatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513E40892D89869D0069365A /* DrawStatisticsView.swift */; };
+		513E408E2D89873F0069365A /* DrawDistanceTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513E408D2D89873F0069365A /* DrawDistanceTable.swift */; };
+		513E40902D8987720069365A /* DrawWeightTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513E408F2D8987720069365A /* DrawWeightTable.swift */; };
+		513E40922D8988520069365A /* DrawRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513E40912D8988520069365A /* DrawRow.swift */; };
+		513E40942D89896A0069365A /* ColumnDistributionLineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513E40932D89896A0069365A /* ColumnDistributionLineChart.swift */; };
+		513E40972D898CA20069365A /* DrawStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513E40952D898CA20069365A /* DrawStats.swift */; };
+		513E40992D899D030069365A /* DistributionArrayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513E40982D899D030069365A /* DistributionArrayView.swift */; };
+		513E409B2D899E010069365A /* DistanceChartModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513E409A2D899E010069365A /* DistanceChartModal.swift */; };
+		513E409D2D899F2C0069365A /* DistanceChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513E409C2D899F2C0069365A /* DistanceChartView.swift */; };
+		513E40A02D89A0300069365A /* GenerateWeightTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513E409F2D89A0300069365A /* GenerateWeightTable.swift */; };
+		513E40A12D89A0300069365A /* GenerateDistanceTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513E409E2D89A0300069365A /* GenerateDistanceTable.swift */; };
+		513E40A32D89C2590069365A /* ArrayFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513E40A22D89C2590069365A /* ArrayFunctions.swift */; };
+		513E40A52D89C2F90069365A /* ArrayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513E40A42D89C2F90069365A /* ArrayView.swift */; };
+		513E40A72D89C3710069365A /* DistributionFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513E40A62D89C3710069365A /* DistributionFunctions.swift */; };
+		513E40A92D89C5300069365A /* DistanceDistributionFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513E40A82D89C5300069365A /* DistanceDistributionFunctions.swift */; };
+		515B1BBC2D954B9D000324E6 /* AppDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515B1BBB2D954B9D000324E6 /* AppDataService.swift */; };
+		5179D10A2D89E02D0091C24F /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5179D1092D89E02D0091C24F /* GameView.swift */; };
+		5179D10C2D89E1420091C24F /* WinProbabilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5179D10B2D89E1420091C24F /* WinProbabilityView.swift */; };
+		5179D10E2D89EA4D0091C24F /* GameRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5179D10D2D89EA4D0091C24F /* GameRecord.swift */; };
+		5179D1102D89EA690091C24F /* EuroMillionsGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5179D10F2D89EA690091C24F /* EuroMillionsGame.swift */; };
+		5179D1152D8AC25A0091C24F /* GamePersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5179D1142D8AC25A0091C24F /* GamePersistenceManager.swift */; };
+		5179D1172D8ACEF90091C24F /* GamePersistenceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5179D1162D8ACEF90091C24F /* GamePersistenceProtocol.swift */; };
+		5179D1192D8AD6E20091C24F /* EuroMillionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5179D1182D8AD6E20091C24F /* EuroMillionsModel.swift */; };
+		5179D11B2D8ADA440091C24F /* SwiftDataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5179D11A2D8ADA440091C24F /* SwiftDataModels.swift */; };
+		5179D11D2D8ADABA0091C24F /* SwiftDataGameRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5179D11C2D8ADABA0091C24F /* SwiftDataGameRepository.swift */; };
+		5179D1222D8AEE050091C24F /* GameRepositoryFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5179D1212D8AEE050091C24F /* GameRepositoryFactory.swift */; };
+		517FA7952D8C0A8200BAA12A /* DrawStarsFromList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517FA7942D8C0A8200BAA12A /* DrawStarsFromList.swift */; };
+		517FA7972D8C0AA200BAA12A /* DrawNumbersFromList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517FA7962D8C0AA200BAA12A /* DrawNumbersFromList.swift */; };
+		517FA79B2D8C0CC600BAA12A /* DrawFilters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517FA79A2D8C0CC600BAA12A /* DrawFilters.swift */; };
+		517FA79D2D8C0CF000BAA12A /* validityTest2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517FA79C2D8C0CF000BAA12A /* validityTest2.swift */; };
+		517FA79F2D8C144500BAA12A /* DrawingSelectorViewClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517FA79E2D8C144500BAA12A /* DrawingSelectorViewClass.swift */; };
+		517FA7A12D8C150900BAA12A /* DrawingServiceClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517FA7A02D8C150900BAA12A /* DrawingServiceClass.swift */; };
+		517FA7C72D8C54EF00BAA12A /* ParametersContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517FA7C62D8C54EF00BAA12A /* ParametersContainerView.swift */; };
+		517FA7C92D8C554600BAA12A /* GameTableContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517FA7C82D8C554600BAA12A /* GameTableContainerView.swift */; };
+		517FA7E02D8C805900BAA12A /* ResetPersistentStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517FA7DF2D8C805900BAA12A /* ResetPersistentStore.swift */; };
+		519FD4212D871D9E006CEE0A /* NavigationButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DA04492D85EB9D008A5439 /* NavigationButtonsView.swift */; };
+		519FD4222D871DA4006CEE0A /* EuroMillionsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DA04482D85EB9D008A5439 /* EuroMillionsHeader.swift */; };
+		519FD4232D871DAA006CEE0A /* EuroMillionLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DA04472D85EB9D008A5439 /* EuroMillionLogoView.swift */; };
+		519FD4242D871DAF006CEE0A /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C2F52B2D86C6570029647D /* WelcomeView.swift */; };
+		519FD42C2D87213E006CEE0A /* DataBaseBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519FD42B2D87213E006CEE0A /* DataBaseBuilder.swift */; };
+		519FD42E2D8721DD006CEE0A /* DataDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519FD42D2D8721DD006CEE0A /* DataDownloader.swift */; };
+		519FD4322D872258006CEE0A /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 519FD4312D872258006CEE0A /* ZIPFoundation */; };
+		519FD4342D87225E006CEE0A /* SwiftCSV in Frameworks */ = {isa = PBXBuildFile; productRef = 519FD4332D87225E006CEE0A /* SwiftCSV */; };
+		519FD4422D873625006CEE0A /* CSVFieldSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519FD4412D873625006CEE0A /* CSVFieldSelector.swift */; };
+		519FD4442D873762006CEE0A /* HistoricalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519FD4432D873762006CEE0A /* HistoricalDataManager.swift */; };
+		51A015BD2D881E2F003BD955 /* FileDirectoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A015B72D881611003BD955 /* FileDirectoryManager.swift */; };
+		51A015BF2D881E2F003BD955 /* FileManagerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A015B92D881611003BD955 /* FileManagerExtension.swift */; };
+		51A015C02D881E2F003BD955 /* FileUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A015BB2D881BA5003BD955 /* FileUtilities.swift */; };
+		51A015C52D882E1B003BD955 /* DataStoreBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A015C42D882E1B003BD955 /* DataStoreBuilder.swift */; };
+		51A015C72D8830D3003BD955 /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A015C62D8830D3003BD955 /* DataParser.swift */; };
+		51A015C92D883340003BD955 /* DataStoreSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A015C82D883340003BD955 /* DataStoreSettings.swift */; };
+		51A015CB2D883434003BD955 /* DataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A015CA2D883434003BD955 /* DataStructure.swift */; };
+		51A015CD2D883858003BD955 /* DataBaseSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A015CC2D883858003BD955 /* DataBaseSettings.swift */; };
+		51A015D22D888EEE003BD955 /* DataVerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A015D12D888EEE003BD955 /* DataVerificationView.swift */; };
+		51B653F62D8D47E300C0F101 /* DeveloperToolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B653F52D8D47E300C0F101 /* DeveloperToolsView.swift */; };
+		51B653F82D8D48C100C0F101 /* PersistenceResetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B653F72D8D48C100C0F101 /* PersistenceResetView.swift */; };
+		51B653FC2D8D838800C0F101 /* EuroMillionsDataActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B653FB2D8D838800C0F101 /* EuroMillionsDataActor.swift */; };
+		51B6542B2D8DB0D500C0F101 /* DrawFromMappingTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B6542A2D8DB0D500C0F101 /* DrawFromMappingTable.swift */; };
+		51B6542F2D8DB14500C0F101 /* DrawFromComputedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B6542E2D8DB14500C0F101 /* DrawFromComputedList.swift */; };
+		51B654312D8DB1C200C0F101 /* DrawFromColumnsFullSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B654302D8DB1C200C0F101 /* DrawFromColumnsFullSize.swift */; };
+		51B654332D8DB21C00C0F101 /* DrawFromColumnsLimitedSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B654322D8DB21C00C0F101 /* DrawFromColumnsLimitedSize.swift */; };
+		51B654352D8DB30F00C0F101 /* DrawingAlgorithmFromTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B654342D8DB30F00C0F101 /* DrawingAlgorithmFromTable.swift */; };
+		51B654382D8DB56700C0F101 /* DrawingStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B654372D8DB56700C0F101 /* DrawingStrategy.swift */; };
+		51B6543C2D8DB7C000C0F101 /* AppErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B6543B2D8DB7C000C0F101 /* AppErrors.swift */; };
+		51B6543E2D8DC92800C0F101 /* GridNumbersSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B6543D2D8DC92800C0F101 /* GridNumbersSelectionView.swift */; };
+		51D9B0EF2D8B378C00B893AE /* DrawingAlgorithmFromList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D9B0EE2D8B378C00B893AE /* DrawingAlgorithmFromList.swift */; };
+		51D9B0F12D8B398700B893AE /* GameCombinationGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D9B0F02D8B398700B893AE /* GameCombinationGenerator.swift */; };
+		51DA04412D85E660008A5439 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DA04402D85E660008A5439 /* TabView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		51DA04062D85E25F008A5439 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,12 +102,91 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		513E40762D89699F0069365A /* DrawResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawResultsView.swift; sourceTree = "<group>"; };
+		513E407B2D8982C90069365A /* GridDistribution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridDistribution.swift; sourceTree = "<group>"; };
+		513E407E2D8982E30069365A /* GridDistributionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridDistributionView.swift; sourceTree = "<group>"; };
+		513E407F2D8982E30069365A /* StatisticsAnalysisFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsAnalysisFramework.swift; sourceTree = "<group>"; };
+		513E40802D8982E30069365A /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		513E40852D89843A0069365A /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		513E40872D89869D0069365A /* DrawHistoryTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawHistoryTable.swift; sourceTree = "<group>"; };
+		513E40892D89869D0069365A /* DrawStatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawStatisticsView.swift; sourceTree = "<group>"; };
+		513E408D2D89873F0069365A /* DrawDistanceTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawDistanceTable.swift; sourceTree = "<group>"; };
+		513E408F2D8987720069365A /* DrawWeightTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawWeightTable.swift; sourceTree = "<group>"; };
+		513E40912D8988520069365A /* DrawRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawRow.swift; sourceTree = "<group>"; };
+		513E40932D89896A0069365A /* ColumnDistributionLineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnDistributionLineChart.swift; sourceTree = "<group>"; };
+		513E40952D898CA20069365A /* DrawStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawStats.swift; sourceTree = "<group>"; };
+		513E40982D899D030069365A /* DistributionArrayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistributionArrayView.swift; sourceTree = "<group>"; };
+		513E409A2D899E010069365A /* DistanceChartModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceChartModal.swift; sourceTree = "<group>"; };
+		513E409C2D899F2C0069365A /* DistanceChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceChartView.swift; sourceTree = "<group>"; };
+		513E409E2D89A0300069365A /* GenerateDistanceTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateDistanceTable.swift; sourceTree = "<group>"; };
+		513E409F2D89A0300069365A /* GenerateWeightTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateWeightTable.swift; sourceTree = "<group>"; };
+		513E40A22D89C2590069365A /* ArrayFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayFunctions.swift; sourceTree = "<group>"; };
+		513E40A42D89C2F90069365A /* ArrayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayView.swift; sourceTree = "<group>"; };
+		513E40A62D89C3710069365A /* DistributionFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistributionFunctions.swift; sourceTree = "<group>"; };
+		513E40A82D89C5300069365A /* DistanceDistributionFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceDistributionFunctions.swift; sourceTree = "<group>"; };
+		515B1BBB2D954B9D000324E6 /* AppDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataService.swift; sourceTree = "<group>"; };
+		5179D1092D89E02D0091C24F /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		5179D10B2D89E1420091C24F /* WinProbabilityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinProbabilityView.swift; sourceTree = "<group>"; };
+		5179D10D2D89EA4D0091C24F /* GameRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRecord.swift; sourceTree = "<group>"; };
+		5179D10F2D89EA690091C24F /* EuroMillionsGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuroMillionsGame.swift; sourceTree = "<group>"; };
+		5179D1142D8AC25A0091C24F /* GamePersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePersistenceManager.swift; sourceTree = "<group>"; };
+		5179D1162D8ACEF90091C24F /* GamePersistenceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePersistenceProtocol.swift; sourceTree = "<group>"; };
+		5179D1182D8AD6E20091C24F /* EuroMillionsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuroMillionsModel.swift; sourceTree = "<group>"; };
+		5179D11A2D8ADA440091C24F /* SwiftDataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataModels.swift; sourceTree = "<group>"; };
+		5179D11C2D8ADABA0091C24F /* SwiftDataGameRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataGameRepository.swift; sourceTree = "<group>"; };
+		5179D1212D8AEE050091C24F /* GameRepositoryFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRepositoryFactory.swift; sourceTree = "<group>"; };
+		517FA7942D8C0A8200BAA12A /* DrawStarsFromList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawStarsFromList.swift; sourceTree = "<group>"; };
+		517FA7962D8C0AA200BAA12A /* DrawNumbersFromList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawNumbersFromList.swift; sourceTree = "<group>"; };
+		517FA79A2D8C0CC600BAA12A /* DrawFilters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawFilters.swift; sourceTree = "<group>"; };
+		517FA79C2D8C0CF000BAA12A /* validityTest2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = validityTest2.swift; sourceTree = "<group>"; };
+		517FA79E2D8C144500BAA12A /* DrawingSelectorViewClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingSelectorViewClass.swift; sourceTree = "<group>"; };
+		517FA7A02D8C150900BAA12A /* DrawingServiceClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingServiceClass.swift; sourceTree = "<group>"; };
+		517FA7C62D8C54EF00BAA12A /* ParametersContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParametersContainerView.swift; sourceTree = "<group>"; };
+		517FA7C82D8C554600BAA12A /* GameTableContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableContainerView.swift; sourceTree = "<group>"; };
+		517FA7DF2D8C805900BAA12A /* ResetPersistentStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPersistentStore.swift; sourceTree = "<group>"; };
+		519FD42B2D87213E006CEE0A /* DataBaseBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseBuilder.swift; sourceTree = "<group>"; };
+		519FD42D2D8721DD006CEE0A /* DataDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDownloader.swift; sourceTree = "<group>"; };
+		519FD4412D873625006CEE0A /* CSVFieldSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVFieldSelector.swift; sourceTree = "<group>"; };
+		519FD4432D873762006CEE0A /* HistoricalDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricalDataManager.swift; sourceTree = "<group>"; };
+		51A015B72D881611003BD955 /* FileDirectoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDirectoryManager.swift; sourceTree = "<group>"; };
+		51A015B92D881611003BD955 /* FileManagerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerExtension.swift; sourceTree = "<group>"; };
+		51A015BB2D881BA5003BD955 /* FileUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileUtilities.swift; sourceTree = "<group>"; };
+		51A015C42D882E1B003BD955 /* DataStoreBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStoreBuilder.swift; sourceTree = "<group>"; };
+		51A015C62D8830D3003BD955 /* DataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParser.swift; sourceTree = "<group>"; };
+		51A015C82D883340003BD955 /* DataStoreSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStoreSettings.swift; sourceTree = "<group>"; };
+		51A015CA2D883434003BD955 /* DataStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructure.swift; sourceTree = "<group>"; };
+		51A015CC2D883858003BD955 /* DataBaseSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseSettings.swift; sourceTree = "<group>"; };
+		51A015D12D888EEE003BD955 /* DataVerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataVerificationView.swift; sourceTree = "<group>"; };
+		51B653F52D8D47E300C0F101 /* DeveloperToolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperToolsView.swift; sourceTree = "<group>"; };
+		51B653F72D8D48C100C0F101 /* PersistenceResetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceResetView.swift; sourceTree = "<group>"; };
+		51B653FB2D8D838800C0F101 /* EuroMillionsDataActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuroMillionsDataActor.swift; sourceTree = "<group>"; };
+		51B6542A2D8DB0D500C0F101 /* DrawFromMappingTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawFromMappingTable.swift; sourceTree = "<group>"; };
+		51B6542E2D8DB14500C0F101 /* DrawFromComputedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawFromComputedList.swift; sourceTree = "<group>"; };
+		51B654302D8DB1C200C0F101 /* DrawFromColumnsFullSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawFromColumnsFullSize.swift; sourceTree = "<group>"; };
+		51B654322D8DB21C00C0F101 /* DrawFromColumnsLimitedSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawFromColumnsLimitedSize.swift; sourceTree = "<group>"; };
+		51B654342D8DB30F00C0F101 /* DrawingAlgorithmFromTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingAlgorithmFromTable.swift; sourceTree = "<group>"; };
+		51B654372D8DB56700C0F101 /* DrawingStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingStrategy.swift; sourceTree = "<group>"; };
+		51B6543B2D8DB7C000C0F101 /* AppErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppErrors.swift; sourceTree = "<group>"; };
+		51B6543D2D8DC92800C0F101 /* GridNumbersSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridNumbersSelectionView.swift; sourceTree = "<group>"; };
+		51C2F52B2D86C6570029647D /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		51D9B0EE2D8B378C00B893AE /* DrawingAlgorithmFromList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingAlgorithmFromList.swift; sourceTree = "<group>"; };
+		51D9B0F02D8B398700B893AE /* GameCombinationGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCombinationGenerator.swift; sourceTree = "<group>"; };
 		51DA03F42D85E25E008A5439 /* EuroMillions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EuroMillions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51DA04052D85E25F008A5439 /* EuroMillionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EuroMillionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51DA040F2D85E25F008A5439 /* EuroMillionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EuroMillionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51DA04402D85E660008A5439 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		51DA04472D85EB9D008A5439 /* EuroMillionLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuroMillionLogoView.swift; sourceTree = "<group>"; };
+		51DA04482D85EB9D008A5439 /* EuroMillionsHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuroMillionsHeader.swift; sourceTree = "<group>"; };
+		51DA04492D85EB9D008A5439 /* NavigationButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationButtonsView.swift; sourceTree = "<group>"; };
+		51DA044D2D85EF22008A5439 /* EuroMillions Application generalities.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "EuroMillions Application generalities.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		519FD4252D871E9B006CEE0A /* Resources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		51DA03F62D85E25E008A5439 /* EuroMillions */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = EuroMillions;
@@ -52,6 +209,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				519FD4322D872258006CEE0A /* ZIPFoundation in Frameworks */,
+				519FD4342D87225E006CEE0A /* SwiftCSV in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +231,272 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		513E40722D8967830069365A /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				51DA04402D85E660008A5439 /* TabView.swift */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		513E40782D8980D40069365A /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				513E40812D8982E30069365A /* Views */,
+				513E407C2D8982C90069365A /* Models */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		513E407C2D8982C90069365A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				513E40A82D89C5300069365A /* DistanceDistributionFunctions.swift */,
+				513E407B2D8982C90069365A /* GridDistribution.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		513E40812D8982E30069365A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				513E40802D8982E30069365A /* StatisticsView.swift */,
+				513E40872D89869D0069365A /* DrawHistoryTable.swift */,
+				513E408D2D89873F0069365A /* DrawDistanceTable.swift */,
+				513E408F2D8987720069365A /* DrawWeightTable.swift */,
+				513E40892D89869D0069365A /* DrawStatisticsView.swift */,
+				513E407E2D8982E30069365A /* GridDistributionView.swift */,
+				513E407F2D8982E30069365A /* StatisticsAnalysisFramework.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5179D0E42D89DB180091C24F /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				51B654392D8DB5DB00C0F101 /* DrawingStrategy */,
+				51D9B0F22D8B3C6C00B893AE /* DrawingAlgorithms */,
+				51D9B0F32D8B3C9E00B893AE /* DrawingFilters */,
+				51D9B0E72D8B31AD00B893AE /* DrawingProtocols */,
+				5179D0E52D89DB340091C24F /* Models */,
+				5179D11E2D8AE9CE0091C24F /* Services */,
+				5179D0E62D89DB3E0091C24F /* Views */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		5179D0E52D89DB340091C24F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5179D10F2D89EA690091C24F /* EuroMillionsGame.swift */,
+				5179D1182D8AD6E20091C24F /* EuroMillionsModel.swift */,
+				5179D10D2D89EA4D0091C24F /* GameRecord.swift */,
+				51D9B0F02D8B398700B893AE /* GameCombinationGenerator.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5179D0E62D89DB3E0091C24F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5179D1092D89E02D0091C24F /* GameView.swift */,
+				5179D10B2D89E1420091C24F /* WinProbabilityView.swift */,
+				517FA7C62D8C54EF00BAA12A /* ParametersContainerView.swift */,
+				517FA79E2D8C144500BAA12A /* DrawingSelectorViewClass.swift */,
+				51B6543D2D8DC92800C0F101 /* GridNumbersSelectionView.swift */,
+				517FA7C82D8C554600BAA12A /* GameTableContainerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5179D1112D8AC1900091C24F /* DataPersistence */ = {
+			isa = PBXGroup;
+			children = (
+				5179D1142D8AC25A0091C24F /* GamePersistenceManager.swift */,
+				5179D1162D8ACEF90091C24F /* GamePersistenceProtocol.swift */,
+				5179D11A2D8ADA440091C24F /* SwiftDataModels.swift */,
+				5179D11C2D8ADABA0091C24F /* SwiftDataGameRepository.swift */,
+				5179D1212D8AEE050091C24F /* GameRepositoryFactory.swift */,
+				51B653FB2D8D838800C0F101 /* EuroMillionsDataActor.swift */,
+			);
+			path = DataPersistence;
+			sourceTree = "<group>";
+		};
+		5179D11E2D8AE9CE0091C24F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				517FA7A02D8C150900BAA12A /* DrawingServiceClass.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		517FA7922D8C09DA00BAA12A /* NumbersDrawingAlgorithms */ = {
+			isa = PBXGroup;
+			children = (
+				517FA7962D8C0AA200BAA12A /* DrawNumbersFromList.swift */,
+				51B654302D8DB1C200C0F101 /* DrawFromColumnsFullSize.swift */,
+				51B654322D8DB21C00C0F101 /* DrawFromColumnsLimitedSize.swift */,
+				51B6542E2D8DB14500C0F101 /* DrawFromComputedList.swift */,
+				51B6542A2D8DB0D500C0F101 /* DrawFromMappingTable.swift */,
+			);
+			path = NumbersDrawingAlgorithms;
+			sourceTree = "<group>";
+		};
+		517FA7932D8C0A0600BAA12A /* StarsDrawingAlgorithms */ = {
+			isa = PBXGroup;
+			children = (
+				517FA7942D8C0A8200BAA12A /* DrawStarsFromList.swift */,
+			);
+			path = StarsDrawingAlgorithms;
+			sourceTree = "<group>";
+		};
+		517FA7982D8C0C6300BAA12A /* NumbersDrawingFilters */ = {
+			isa = PBXGroup;
+			children = (
+				517FA79A2D8C0CC600BAA12A /* DrawFilters.swift */,
+				517FA79C2D8C0CF000BAA12A /* validityTest2.swift */,
+			);
+			path = NumbersDrawingFilters;
+			sourceTree = "<group>";
+		};
+		517FA7992D8C0C8500BAA12A /* StarsDrawingFilters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = StarsDrawingFilters;
+			sourceTree = "<group>";
+		};
+		517FA7DC2D8C7E8800BAA12A /* DeveloperTools */ = {
+			isa = PBXGroup;
+			children = (
+				517FA7DF2D8C805900BAA12A /* ResetPersistentStore.swift */,
+			);
+			path = DeveloperTools;
+			sourceTree = "<group>";
+		};
+		519FD41D2D8715CD006CEE0A /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+				51A015C42D882E1B003BD955 /* DataStoreBuilder.swift */,
+				51A015C82D883340003BD955 /* DataStoreSettings.swift */,
+				51A015CA2D883434003BD955 /* DataStructure.swift */,
+				51A015C62D8830D3003BD955 /* DataParser.swift */,
+				513E409E2D89A0300069365A /* GenerateDistanceTable.swift */,
+				513E409F2D89A0300069365A /* GenerateWeightTable.swift */,
+				515B1BBB2D954B9D000324E6 /* AppDataService.swift */,
+			);
+			path = DataStore;
+			sourceTree = "<group>";
+		};
+		519FD41E2D8715D9006CEE0A /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				519FD42B2D87213E006CEE0A /* DataBaseBuilder.swift */,
+				51A015CC2D883858003BD955 /* DataBaseSettings.swift */,
+				519FD42D2D8721DD006CEE0A /* DataDownloader.swift */,
+				519FD4412D873625006CEE0A /* CSVFieldSelector.swift */,
+				519FD4432D873762006CEE0A /* HistoricalDataManager.swift */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		51A015B52D88155F003BD955 /* FileLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				51A015B72D881611003BD955 /* FileDirectoryManager.swift */,
+				51A015B92D881611003BD955 /* FileManagerExtension.swift */,
+				51A015BB2D881BA5003BD955 /* FileUtilities.swift */,
+			);
+			path = FileLibrary;
+			sourceTree = "<group>";
+		};
+		51A015CE2D888D19003BD955 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				51C2F52B2D86C6570029647D /* WelcomeView.swift */,
+				513E40762D89699F0069365A /* DrawResultsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		51B653F42D8D479200C0F101 /* DeveloperToolsView */ = {
+			isa = PBXGroup;
+			children = (
+				51B653F52D8D47E300C0F101 /* DeveloperToolsView.swift */,
+				51A015D12D888EEE003BD955 /* DataVerificationView.swift */,
+				51B653F72D8D48C100C0F101 /* PersistenceResetView.swift */,
+			);
+			path = DeveloperToolsView;
+			sourceTree = "<group>";
+		};
+		51B654362D8DB3D100C0F101 /* NumberDrawingProtocols */ = {
+			isa = PBXGroup;
+			children = (
+				51D9B0EE2D8B378C00B893AE /* DrawingAlgorithmFromList.swift */,
+				51B654342D8DB30F00C0F101 /* DrawingAlgorithmFromTable.swift */,
+			);
+			path = NumberDrawingProtocols;
+			sourceTree = "<group>";
+		};
+		51B654392D8DB5DB00C0F101 /* DrawingStrategy */ = {
+			isa = PBXGroup;
+			children = (
+				51B654372D8DB56700C0F101 /* DrawingStrategy.swift */,
+			);
+			path = DrawingStrategy;
+			sourceTree = "<group>";
+		};
+		51B6543A2D8DB79300C0F101 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				51B6543B2D8DB7C000C0F101 /* AppErrors.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		51D9B0E72D8B31AD00B893AE /* DrawingProtocols */ = {
+			isa = PBXGroup;
+			children = (
+				51B654362D8DB3D100C0F101 /* NumberDrawingProtocols */,
+			);
+			path = DrawingProtocols;
+			sourceTree = "<group>";
+		};
+		51D9B0F22D8B3C6C00B893AE /* DrawingAlgorithms */ = {
+			isa = PBXGroup;
+			children = (
+				517FA7922D8C09DA00BAA12A /* NumbersDrawingAlgorithms */,
+				517FA7932D8C0A0600BAA12A /* StarsDrawingAlgorithms */,
+			);
+			path = DrawingAlgorithms;
+			sourceTree = "<group>";
+		};
+		51D9B0F32D8B3C9E00B893AE /* DrawingFilters */ = {
+			isa = PBXGroup;
+			children = (
+				517FA7982D8C0C6300BAA12A /* NumbersDrawingFilters */,
+				517FA7992D8C0C8500BAA12A /* StarsDrawingFilters */,
+			);
+			path = DrawingFilters;
+			sourceTree = "<group>";
+		};
 		51DA03EB2D85E25E008A5439 = {
 			isa = PBXGroup;
 			children = (
+				517FA7DC2D8C7E8800BAA12A /* DeveloperTools */,
+				51DA04362D85E3A1008A5439 /* Documentation */,
+				51DA04382D85E49C008A5439 /* Common */,
+				51DA04392D85E4A9008A5439 /* Configuration */,
+				51B6543A2D8DB79300C0F101 /* Error */,
+				51DA043A2D85E4C4008A5439 /* Features */,
+				51DA043B2D85E4DE008A5439 /* Models */,
+				51DA043C2D85E4F5008A5439 /* UIComponents */,
+				51DA043D2D85E507008A5439 /* Utilities */,
+				519FD4252D871E9B006CEE0A /* Resources */,
 				51DA03F62D85E25E008A5439 /* EuroMillions */,
 				51DA04082D85E25F008A5439 /* EuroMillionsTests */,
 				51DA04122D85E25F008A5439 /* EuroMillionsUITests */,
+				51DA04232D85E2A4008A5439 /* Frameworks */,
 				51DA03F52D85E25E008A5439 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +509,93 @@
 				51DA040F2D85E25F008A5439 /* EuroMillionsUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		51DA04232D85E2A4008A5439 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51DA04362D85E3A1008A5439 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				51DA044D2D85EF22008A5439 /* EuroMillions Application generalities.md */,
+			);
+			path = Documentation;
+			sourceTree = "<group>";
+		};
+		51DA04382D85E49C008A5439 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		51DA04392D85E4A9008A5439 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				513E40852D89843A0069365A /* AppConfig.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		51DA043A2D85E4C4008A5439 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				513E40722D8967830069365A /* Tab */,
+				51DA043E2D85E5A0008A5439 /* Welcome */,
+				513E40782D8980D40069365A /* Statistics */,
+				5179D0E42D89DB180091C24F /* Game */,
+				51B653F42D8D479200C0F101 /* DeveloperToolsView */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		51DA043B2D85E4DE008A5439 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				519FD41E2D8715D9006CEE0A /* DataBase */,
+				519FD41D2D8715CD006CEE0A /* DataStore */,
+				5179D1112D8AC1900091C24F /* DataPersistence */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		51DA043C2D85E4F5008A5439 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				513E40A42D89C2F90069365A /* ArrayView.swift */,
+				513E409A2D899E010069365A /* DistanceChartModal.swift */,
+				513E409C2D899F2C0069365A /* DistanceChartView.swift */,
+				513E40932D89896A0069365A /* ColumnDistributionLineChart.swift */,
+				513E40982D899D030069365A /* DistributionArrayView.swift */,
+				513E40912D8988520069365A /* DrawRow.swift */,
+				51DA04472D85EB9D008A5439 /* EuroMillionLogoView.swift */,
+				51DA04482D85EB9D008A5439 /* EuroMillionsHeader.swift */,
+				51DA04492D85EB9D008A5439 /* NavigationButtonsView.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		51DA043D2D85E507008A5439 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				513E40A22D89C2590069365A /* ArrayFunctions.swift */,
+				513E40A62D89C3710069365A /* DistributionFunctions.swift */,
+				513E40952D898CA20069365A /* DrawStats.swift */,
+				51A015B52D88155F003BD955 /* FileLibrary */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		51DA043E2D85E5A0008A5439 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				51A015CE2D888D19003BD955 /* Views */,
+			);
+			path = Welcome;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,12 +612,17 @@
 			buildRules = (
 			);
 			dependencies = (
+				519FD4382D87226E006CEE0A /* PBXTargetDependency */,
+				519FD4362D872269006CEE0A /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
+				519FD4252D871E9B006CEE0A /* Resources */,
 				51DA03F62D85E25E008A5439 /* EuroMillions */,
 			);
 			name = EuroMillions;
 			packageProductDependencies = (
+				519FD4312D872258006CEE0A /* ZIPFoundation */,
+				519FD4332D87225E006CEE0A /* SwiftCSV */,
 			);
 			productName = EuroMillions;
 			productReference = 51DA03F42D85E25E008A5439 /* EuroMillions.app */;
@@ -195,6 +706,10 @@
 			);
 			mainGroup = 51DA03EB2D85E25E008A5439;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				519FD42F2D87223B006CEE0A /* XCRemoteSwiftPackageReference "ZIPFoundation" */,
+				519FD4302D872249006CEE0A /* XCRemoteSwiftPackageReference "SwiftCSV" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 51DA03F52D85E25E008A5439 /* Products */;
 			projectDirPath = "";
@@ -236,6 +751,79 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				513E40862D8984B90069365A /* AppConfig.swift in Sources */,
+				513E40992D899D030069365A /* DistributionArrayView.swift in Sources */,
+				51A015BD2D881E2F003BD955 /* FileDirectoryManager.swift in Sources */,
+				5179D1102D89EA690091C24F /* EuroMillionsGame.swift in Sources */,
+				51A015BF2D881E2F003BD955 /* FileManagerExtension.swift in Sources */,
+				51B653F62D8D47E300C0F101 /* DeveloperToolsView.swift in Sources */,
+				51B654312D8DB1C200C0F101 /* DrawFromColumnsFullSize.swift in Sources */,
+				513E40822D8982E30069365A /* GridDistributionView.swift in Sources */,
+				51B654332D8DB21C00C0F101 /* DrawFromColumnsLimitedSize.swift in Sources */,
+				515B1BBC2D954B9D000324E6 /* AppDataService.swift in Sources */,
+				51B6542B2D8DB0D500C0F101 /* DrawFromMappingTable.swift in Sources */,
+				513E40832D8982E30069365A /* StatisticsAnalysisFramework.swift in Sources */,
+				513E40842D8982E30069365A /* StatisticsView.swift in Sources */,
+				51B653F82D8D48C100C0F101 /* PersistenceResetView.swift in Sources */,
+				51B653FC2D8D838800C0F101 /* EuroMillionsDataActor.swift in Sources */,
+				517FA79D2D8C0CF000BAA12A /* validityTest2.swift in Sources */,
+				513E40A72D89C3710069365A /* DistributionFunctions.swift in Sources */,
+				513E40A02D89A0300069365A /* GenerateWeightTable.swift in Sources */,
+				513E40A12D89A0300069365A /* GenerateDistanceTable.swift in Sources */,
+				51A015C72D8830D3003BD955 /* DataParser.swift in Sources */,
+				513E40972D898CA20069365A /* DrawStats.swift in Sources */,
+				51A015CD2D883858003BD955 /* DataBaseSettings.swift in Sources */,
+				51A015CB2D883434003BD955 /* DataStructure.swift in Sources */,
+				513E40A52D89C2F90069365A /* ArrayView.swift in Sources */,
+				51B654382D8DB56700C0F101 /* DrawingStrategy.swift in Sources */,
+				51A015C92D883340003BD955 /* DataStoreSettings.swift in Sources */,
+				51A015C02D881E2F003BD955 /* FileUtilities.swift in Sources */,
+				513E408E2D89873F0069365A /* DrawDistanceTable.swift in Sources */,
+				513E40942D89896A0069365A /* ColumnDistributionLineChart.swift in Sources */,
+				5179D1222D8AEE050091C24F /* GameRepositoryFactory.swift in Sources */,
+				5179D10C2D89E1420091C24F /* WinProbabilityView.swift in Sources */,
+				5179D1192D8AD6E20091C24F /* EuroMillionsModel.swift in Sources */,
+				5179D1152D8AC25A0091C24F /* GamePersistenceManager.swift in Sources */,
+				519FD4242D871DAF006CEE0A /* WelcomeView.swift in Sources */,
+				513E409D2D899F2C0069365A /* DistanceChartView.swift in Sources */,
+				513E40902D8987720069365A /* DrawWeightTable.swift in Sources */,
+				51A015D22D888EEE003BD955 /* DataVerificationView.swift in Sources */,
+				5179D11B2D8ADA440091C24F /* SwiftDataModels.swift in Sources */,
+				513E407D2D8982C90069365A /* GridDistribution.swift in Sources */,
+				517FA79B2D8C0CC600BAA12A /* DrawFilters.swift in Sources */,
+				513E40A32D89C2590069365A /* ArrayFunctions.swift in Sources */,
+				5179D11D2D8ADABA0091C24F /* SwiftDataGameRepository.swift in Sources */,
+				517FA79F2D8C144500BAA12A /* DrawingSelectorViewClass.swift in Sources */,
+				51D9B0EF2D8B378C00B893AE /* DrawingAlgorithmFromList.swift in Sources */,
+				5179D1172D8ACEF90091C24F /* GamePersistenceProtocol.swift in Sources */,
+				519FD42C2D87213E006CEE0A /* DataBaseBuilder.swift in Sources */,
+				519FD4232D871DAA006CEE0A /* EuroMillionLogoView.swift in Sources */,
+				51D9B0F12D8B398700B893AE /* GameCombinationGenerator.swift in Sources */,
+				517FA7C72D8C54EF00BAA12A /* ParametersContainerView.swift in Sources */,
+				519FD4222D871DA4006CEE0A /* EuroMillionsHeader.swift in Sources */,
+				519FD4212D871D9E006CEE0A /* NavigationButtonsView.swift in Sources */,
+				513E408A2D89869D0069365A /* DrawHistoryTable.swift in Sources */,
+				513E40922D8988520069365A /* DrawRow.swift in Sources */,
+				513E408C2D89869D0069365A /* DrawStatisticsView.swift in Sources */,
+				51DA04412D85E660008A5439 /* TabView.swift in Sources */,
+				5179D10A2D89E02D0091C24F /* GameView.swift in Sources */,
+				5179D10E2D89EA4D0091C24F /* GameRecord.swift in Sources */,
+				51B6543C2D8DB7C000C0F101 /* AppErrors.swift in Sources */,
+				513E40772D89699F0069365A /* DrawResultsView.swift in Sources */,
+				519FD4422D873625006CEE0A /* CSVFieldSelector.swift in Sources */,
+				519FD42E2D8721DD006CEE0A /* DataDownloader.swift in Sources */,
+				517FA7E02D8C805900BAA12A /* ResetPersistentStore.swift in Sources */,
+				513E409B2D899E010069365A /* DistanceChartModal.swift in Sources */,
+				517FA7972D8C0AA200BAA12A /* DrawNumbersFromList.swift in Sources */,
+				513E40A92D89C5300069365A /* DistanceDistributionFunctions.swift in Sources */,
+				51B6543E2D8DC92800C0F101 /* GridNumbersSelectionView.swift in Sources */,
+				517FA7952D8C0A8200BAA12A /* DrawStarsFromList.swift in Sources */,
+				519FD4442D873762006CEE0A /* HistoricalDataManager.swift in Sources */,
+				51A015C52D882E1B003BD955 /* DataStoreBuilder.swift in Sources */,
+				517FA7C92D8C554600BAA12A /* GameTableContainerView.swift in Sources */,
+				51B654352D8DB30F00C0F101 /* DrawingAlgorithmFromTable.swift in Sources */,
+				51B6542F2D8DB14500C0F101 /* DrawFromComputedList.swift in Sources */,
+				517FA7A12D8C150900BAA12A /* DrawingServiceClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +844,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		519FD4362D872269006CEE0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 519FD4352D872269006CEE0A /* ZIPFoundation */;
+		};
+		519FD4382D87226E006CEE0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 519FD4372D87226E006CEE0A /* SwiftCSV */;
+		};
 		51DA04072D85E25F008A5439 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 51DA03F32D85E25E008A5439 /* EuroMillions */;
@@ -401,6 +997,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = EuroMillions;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -428,6 +1026,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = EuroMillions;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -549,6 +1149,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		519FD42F2D87223B006CEE0A /* XCRemoteSwiftPackageReference "ZIPFoundation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/weichsel/ZIPFoundation.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.19;
+			};
+		};
+		519FD4302D872249006CEE0A /* XCRemoteSwiftPackageReference "SwiftCSV" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/swiftcsv/SwiftCSV.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		519FD4312D872258006CEE0A /* ZIPFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 519FD42F2D87223B006CEE0A /* XCRemoteSwiftPackageReference "ZIPFoundation" */;
+			productName = ZIPFoundation;
+		};
+		519FD4332D87225E006CEE0A /* SwiftCSV */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 519FD4302D872249006CEE0A /* XCRemoteSwiftPackageReference "SwiftCSV" */;
+			productName = SwiftCSV;
+		};
+		519FD4352D872269006CEE0A /* ZIPFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 519FD42F2D87223B006CEE0A /* XCRemoteSwiftPackageReference "ZIPFoundation" */;
+			productName = ZIPFoundation;
+		};
+		519FD4372D87226E006CEE0A /* SwiftCSV */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 519FD4302D872249006CEE0A /* XCRemoteSwiftPackageReference "SwiftCSV" */;
+			productName = SwiftCSV;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 51DA03EC2D85E25E008A5439 /* Project object */;
 }
